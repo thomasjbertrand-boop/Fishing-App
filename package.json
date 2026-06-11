@@ -1,0 +1,17 @@
+{
+  "name": "co-fishing-dashboard",
+  "version": "1.0.0",
+  "description": "Colorado fly fishing river flows + shop reports dashboard",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
